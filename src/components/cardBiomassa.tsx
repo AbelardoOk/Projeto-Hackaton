@@ -8,28 +8,18 @@ export function CardBiomassa() {
                 <Image className="w-[40%]" src={"/biomassa.jpg"} height={1472} width={2000} alt="" />
                 <div className="font-sans">
                     <h1 className="flex justify-center items-center text-black " >Biomassa</h1>
-                    <p className="text-black ">Estados:
-                        Mato Grosso do Sul
+                    <p className="text-black text-sm m-4  "><b>Estados: </b>
+                        Mato Grosso do Sul <br></br>
 
-                        Características:
-                        Biomassa corresponde ao conjunto de resíduos de origem animal ou vegetal utilizado na produção de energia, oriunda de fontes como vegetais lenhosos, cultivo agrícola e resíduos urbanos e industriais. A energia gerada a partir da biomassa, que são calor e eletricidade, é produzida por meio da combustão direta ou de processos de conversão termoquímica.
-        
+                        <b>Características: </b>
+                        Biomassa corresponde ao conjunto de resíduos de origem animal ou vegetal utilizado na produção de energia, oriunda de fontes como vegetais lenhosos, cultivo agrícola e resíduos urbanos e industriais. A energia gerada a partir da biomassa, que são calor e eletricidade, é produzida por meio da combustão direta ou de processos de conversão termoquímica.<br></br>
+                        <br></br>
+                        <b>Vantagens: </b>
 
-                        Vantagens:
-
-                        A biomassa é uma fonte de energia natural e renovável, visto que sua produção é parte do ciclo de carbono do planeta. Além do mais, os processos de geração de energia a partir da biomassa emitem poucos gases poluentes na atmosfera.
-
-<<<<<<< Updated upstream
-A biomassa é uma fonte de energia natural e renovável, visto que sua produção é parte do ciclo de carbono do planeta. Além do mais, os processos de geração de energia a partir da biomassa emitem poucos gases poluentes na atmosfera.
-poggers
-Desvantagens:
-
-Uma das principais desvantagens da biomassa é o impacto que ela pode gerar ao meio ambiente, isso porque sua obtenção leva ao desmatamento de áreas e/ou à substituição da vegetação original por cultivo agrícola.
-=======
-                        Desvantagens:
-
+                        A biomassa é uma fonte de energia natural e renovável, visto que sua produção é parte do ciclo de carbono do planeta. Além do mais, os processos de geração de energia a partir da biomassa emitem poucos gases poluentes na atmosfera.<br></br>
+                        <br></br>
+                        <b>Desvantagens: </b>
                         Uma das principais desvantagens da biomassa é o impacto que ela pode gerar ao meio ambiente, isso porque sua obtenção leva ao desmatamento de áreas e/ou à substituição da vegetação original por cultivo agrícola.
->>>>>>> Stashed changes
 
                     </p>
                     <div className="flex justify-center mt-4">
