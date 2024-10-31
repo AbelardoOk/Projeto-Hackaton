@@ -21,6 +21,8 @@ export default function Home({ searchParams }: SearchParamProps) {
     const biomassa = searchParams?.biomassa === 'true';
     const hidreletrica = searchParams?.hidreletrica === 'true';
     const carvao = searchParams?.carvao === 'true';
+    const gas = searchParams?.gas === 'true';
+    const petroleo = searchParams?.petroleo === 'true';
 
     return (
       <main className="bg-[#f7f7f7]">
