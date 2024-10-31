@@ -11,7 +11,7 @@ export default function Home() {
       <button className="absolute rounded-lg font-bold px-8 py-2 bg-[#181818] text-[#f7f7f7] opacity-80 mt-[54rem] ml-[52rem] hover:opacity-100 transition-all hover:scale-125">Pampa</button>
 
       <div className="h-[100vh] w-[100vw] flex flex-col justify-center items-center gap-8">
-        <h1 className="text-black font-bold text-4xl">Biomas do Brasil</h1>
+        <h1 className="text-black font-bold text-4xl">Biomas</h1>
         <Image className="h-[80vh] w-fit" src={"/mapaBiomas.png"} alt="" width={1080} height={1080} />
       </div>
 
