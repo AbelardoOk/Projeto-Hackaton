@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     
-    <main className="h-[100vh] w-[100vw]  ">
+    <main className="h-[100vh] w-[100vw] ">
       {/* <button className="absolute rounded-lg font-bold px-8 py-2 bg-white text-[#181818] opacity-80 mt-[20rem] ml-[48rem] hover:opacity-100 hover:scale-125 transition-all">Amazônia</button>
       <button className="absolute rounded-lg font-bold px-8 py-2 bg-white text-[#181818] opacity-80 mt-[34rem] ml-[62.5rem] hover:opacity-100 transition-all hover:scale-125">Cerrado</button>
       <button className="absolute rounded-lg font-bold px-8 py-2 bg-[#181818] text-[#f7f7f7] opacity-80 mt-[20rem] ml-[77rem] hover:opacity-100 transition-all hover:scale-125">Caatinga</button>
@@ -23,7 +23,7 @@ export default function Home() {
         <p className="normal-case text-black font-medium text-7xl bg-green-400 border rounded-md p-1 w-fit mb-10 ">Energia Renovável</p>
         <p className="normal-case text-black font-bold text-2xl bg-green-400 border rounded-md p-1 w-fit mb-16 ">&#34;Em busca de um futuro melhor&#34;</p>
 
-        <Link href={"/mapa"} className="py-2.5 px-5 text-3xl font-medium text-gray-900 focus:outline-none bg-white rounded-lg border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-green-700 dark:bg-green-800 dark:text-gray-400 dark:border-green-600 dark:hover:text-white dark:hover:bg-green-700 ">Começar</Link>
+        <Link href={"/mapa"} className="py-2.5 px-5 text-3xl font-medium text-gray-900 focus:outline-none bg-white rounded-lg border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-green-700 ">Começar</Link>
 
       </div>
 

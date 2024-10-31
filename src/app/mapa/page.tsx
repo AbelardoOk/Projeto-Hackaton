@@ -11,6 +11,7 @@ import { CardCarvao } from "@/components/cardCarvao";
 import { CardBiomassa } from "@/components/cardBiomassa";
 import { CardGas } from "@/components/cardGas";
 import { CardPetroleo } from "@/components/cardPetroleo";
+import { CardHidrica } from "@/components/cardHidrica";
 
 type SearchParamProps = {
     searchParams: Record<string, string> | null | undefined;
@@ -41,7 +42,7 @@ export default function Home({ searchParams }: SearchParamProps) {
 
         {eolica && <CardEolica />}
         {biomassa && <CardBiomassa />}
-        {hidreletrica && <Card />}
+        {hidreletrica && <CardHidrica />}
         {carvao && <CardCarvao />}
         {gas && <CardGas />}
         {petroleo && <CardPetroleo />}

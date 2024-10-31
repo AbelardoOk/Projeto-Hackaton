@@ -8,7 +8,7 @@ export function CardCarvao(){
             <Image className="w-[40%]" src={"/carvao.jpg"} height={1472} width={2000} alt="" />
             <div className="font-sans text-black ">
                 <h1 className="flex justify-center items-center "  >Carvao</h1>
-                <p className="text-black text-sm m-4 ">bla bla bla</p>
+                <p className="text-black text-sm m-4 "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sed neque dolores asperiores vitae ipsum, enim labore, eligendi velit quae iure aut laborum suscipit nihil recusandae nostrum. Eaque, numquam laudantium.</p>
                 <div className="flex justify-center mt-4">
                     {/* Navigates back to the base URL - closing the modal */}
                     <Link
