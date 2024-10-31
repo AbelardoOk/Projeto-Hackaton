@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 export default function Home() {
   return (
     <main>
@@ -14,6 +15,8 @@ export default function Home() {
         <Image className="h-[80vh] w-fit" src={"/mapaBiomas.png"} alt="" width={1080} height={1080} />
       </div>
 
+
+        
     </main>
 
   );
