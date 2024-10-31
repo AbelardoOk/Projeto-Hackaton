@@ -9,6 +9,7 @@ import { Card } from "@/components/card";
 import { CardEolica } from "@/components/cardEolica";
 import { CardCarvao } from "@/components/cardCarvao";
 import { CardBiomassa } from "@/components/cardBiomassa";
+import { CardGas } from "@/components/cardGas";
 
 type SearchParamProps = {
     searchParams: Record<string, string> | null | undefined;
@@ -19,6 +20,7 @@ export default function Home({ searchParams }: SearchParamProps) {
     const biomassa = searchParams?.biomassa === 'true';
     const hidreletrica = searchParams?.hidreletrica === 'true';
     const carvao = searchParams?.carvao === 'true';
+    const gas = searchParams?.gas === 'true';
 
     return (
       <main className="bg-[#f7f7f7]">
@@ -39,6 +41,8 @@ export default function Home({ searchParams }: SearchParamProps) {
         {biomassa && <CardBiomassa />}
         {hidreletrica && <Card />}
         {carvao && <CardCarvao />}
+        {gas && <CardGas/>}
+
       </main>
     );
   }

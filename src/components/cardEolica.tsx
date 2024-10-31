@@ -6,6 +6,7 @@ export function CardEolica(){
         <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full flex items-center justify-center">
         <div className="flex flex-row border w-[60vw] h-[60vh] shadow-lg rounded-xl bg-white overflow-auto">
             <Image className="w-[40%]" src={"/eolica.jpeg"} height={1472} width={2000} alt="" />
+<<<<<<< Updated upstream
             <div>
                 <h1>Eólica</h1>
                 <p>Estados:
@@ -23,6 +24,11 @@ Desvantagens
 Impacto visual e sonoro: as turbinas eólicas podem modificar a paisagem e gerar ruídos, o que pode afetar áreas residenciais próximas.
 Intermitência: a geração de energia eólica depende das condições climáticas e da intensidade dos ventos, o que pode variar ao longo do tempo, tornando necessário o uso de fontes complementares para garantir a estabilidade da rede.
 </p>
+=======
+            <div className="font-sans">
+                <h1 className="flex justify-center items-center font-sans">texto</h1>
+                <p>bla bla bla</p>
+>>>>>>> Stashed changes
                 <div className="flex justify-center mt-4">
                     {/* Navigates back to the base URL - closing the modal */}
                     <Link
