@@ -14,6 +14,7 @@ export default function Home({ searchParams }: SearchParamProps) {
     const eolica = searchParams?.eolica === 'true';
     const biomassa = searchParams?.biomassa === 'true';
     const hidreletrica = searchParams?.hidreletrica === 'true';
+    const carvao = searchParams?.carvao === 'true';
 
     return (
       <main className="bg-[#f7f7f7]">
@@ -30,6 +31,7 @@ export default function Home({ searchParams }: SearchParamProps) {
         {eolica && <CardEolica />}
         {biomassa && <CardBiomassa />}
         {hidreletrica && <Card />}
+        {carvao && <CardCarvao />}
       </main>
     );
   }
