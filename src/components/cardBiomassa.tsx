@@ -8,8 +8,21 @@ export function CardBiomassa() {
                 <Image className="w-[40%]" src={"/eolica.jpeg"} height={1472} width={2000} alt="" />
                 <div>
                     <h1 className="flex justify-center items-center " >Biomassa</h1>
-                    <p>
-                        Resíduos e matéria orgânica utilizada na produção de energia
+                    <p>Estados:
+Mato Grosso do Sul
+
+	Características:
+Biomassa corresponde ao conjunto de resíduos de origem animal ou vegetal utilizado na produção de energia, oriunda de fontes como vegetais lenhosos, cultivo agrícola e resíduos urbanos e industriais. A energia gerada a partir da biomassa, que são calor e eletricidade, é produzida por meio da combustão direta ou de processos de conversão termoquímica.
+
+
+	Vantagens:
+
+A biomassa é uma fonte de energia natural e renovável, visto que sua produção é parte do ciclo de carbono do planeta. Além do mais, os processos de geração de energia a partir da biomassa emitem poucos gases poluentes na atmosfera.
+
+Desvantagens:
+
+Uma das principais desvantagens da biomassa é o impacto que ela pode gerar ao meio ambiente, isso porque sua obtenção leva ao desmatamento de áreas e/ou à substituição da vegetação original por cultivo agrícola.
+
                     </p>
                     <div className="flex justify-center mt-4">
                         {/* Navigates back to the base URL - closing the modal */}
