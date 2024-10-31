@@ -5,10 +5,10 @@ export function CardBiomassa() {
     return (
         <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full flex items-center justify-center">
             <div className="flex flex-row border w-[60vw] h-[60vh] shadow-lg rounded-xl bg-white overflow-auto">
-                <Image className="w-[40%]" src={"/eolica.jpeg"} height={1472} width={2000} alt="" />
-                <div>
-                    <h1 className="flex justify-center items-center " >Biomassa</h1>
-                    <p>Estados:
+                <Image className="w-[40%]" src={"/biomassa.jpg"} height={1472} width={2000} alt="" />
+                <div className="">
+                    <h1 className="flex justify-center items-center text-black font-mono " >Biomassa</h1>
+                    <p className="text-black ">Estados:
 Mato Grosso do Sul
 
 	Características:

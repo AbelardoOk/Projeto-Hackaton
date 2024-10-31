@@ -7,6 +7,7 @@ import { BotaoPetroleo } from "@/components/petroleo";
 import { BotaoCarvao } from "@/components/carvao";
 import { Card } from "@/components/card";
 import { CardEolica } from "@/components/cardEolica";
+import { CardCarvao } from "@/components/cardCarvao";
 import { CardBiomassa } from "@/components/cardBiomassa";
 
 type SearchParamProps = {
