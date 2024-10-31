@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className="text-black font-bold text-4xl">Biomas</h1>
         <Image className="h-[80vh] w-fit" src={"/mapaBiomas.png"} alt="" width={1080} height={1080} />
       </div> */}
-      <div className="bg-[url('/')"></div>
+      
       <div className="flex flex-col justify-center items-center mt-52 font-mono">
 
         <p className="normal-case text-black font-medium text-7xl bg-slate-300 border rounded-md p-1 w-fit mb-10 ">Energia Sustentável</p>
