@@ -2,6 +2,9 @@ import Image from "next/image";
 import { BotaoHidreletrica } from "@/components/hidreletrica";
 import { BotaoEolica } from "@/components/eolica";
 import { BotaoBiomassa } from "@/components/biomassa";
+import { BotaoGas } from "@/components/gas";
+import { BotaoPetroleo } from "@/components/petroleo";
+import { BotaoCarvao } from "@/components/carvao";
 
 export default function Home() {  
     return (
