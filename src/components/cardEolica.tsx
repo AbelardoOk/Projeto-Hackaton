@@ -9,6 +9,7 @@ export function CardEolica(){
             <div>
                 <h1>Eólica</h1>
                 <p>Estados:
+                    tire iso
 Ceará
 Rio Grande do Norte
 Bahia

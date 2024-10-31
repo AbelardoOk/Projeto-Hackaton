@@ -9,6 +9,7 @@ export function CardHidrica(){
             <div>
                 <h1>Hídrica</h1>
                 <p>Estados:
+                    tire iso
 Rondônia
 Amapá
 pará

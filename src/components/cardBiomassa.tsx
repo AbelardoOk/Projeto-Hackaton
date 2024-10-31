@@ -18,7 +18,7 @@ Biomassa corresponde ao conjunto de resíduos de origem animal ou vegetal utiliz
 	Vantagens:
 
 A biomassa é uma fonte de energia natural e renovável, visto que sua produção é parte do ciclo de carbono do planeta. Além do mais, os processos de geração de energia a partir da biomassa emitem poucos gases poluentes na atmosfera.
-
+poggers
 Desvantagens:
 
 Uma das principais desvantagens da biomassa é o impacto que ela pode gerar ao meio ambiente, isso porque sua obtenção leva ao desmatamento de áreas e/ou à substituição da vegetação original por cultivo agrícola.
